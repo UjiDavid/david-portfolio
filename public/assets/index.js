@@ -17,7 +17,7 @@ import raven_macaw from './raven-macaw.png';
 import threeJS from './threejs.png';
 import contactImg from './SNB_4813.jpg';
 import africado from './Africado.jpg';
-import carondara_childrens_day from './Carondara_Childrens_day.jpg';
+import carondara_childrens_day from './Carondara_Childrens_Day.jpg';
 import collaboration from './Collaboration.jpg';
 import december from './December.jpg';
 import gameday from './Gameday.jpg';
