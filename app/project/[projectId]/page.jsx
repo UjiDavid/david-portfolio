@@ -24,7 +24,7 @@ const page = () => {
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image src={projectInfo.image} alt={projectInfo.name} fill cover="true" className="absolute z-1" />
-        <div className="p-6 absolute top-[60%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[50%] text-white z-10">
+        <div className="m-6 absolute top-[50%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[50%] text-white z-10">
           <h2 className="py-2">{projectInfo.name}</h2>
           <h3>
             {projectInfo.tech.map((tec) => (
