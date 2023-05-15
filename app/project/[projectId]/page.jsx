@@ -15,6 +15,10 @@ const searchById = (id) => {
   return foundProject;
 };
 
+export const metadata = {
+  title: 'Web Project',
+};
+
 const page = () => {
   const params = useParams();
   const projectInfo = searchById(params.projectId);

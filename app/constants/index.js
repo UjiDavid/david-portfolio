@@ -5,6 +5,8 @@ import {
   lyriks,
   raven_macaw,
   movie_app,
+  airbnb_clone,
+  promptopia,
   carondara_childrens_day,
   the_hill_poster,
   december,
@@ -132,6 +134,26 @@ export const graphicsInfo = [
 
 export const projectsInfo = [
   {
+    name: 'Airbnb Clone',
+    tech: ['Next.JS', 'TailwindCSS', 'NextAuth', 'Typescript', 'Prisma', 'MongoDB', 'Cloudinary'],
+    description:
+      'This is an Airbnb Clone with full CRUD Functionality, built with NEXT.JS, Typescript, Prisma, MongoDB, NextAuth, Cloudinary.',
+    image: airbnb_clone,
+    github: 'https://github.com/UjiDavid/airbnb',
+    link: 'https://rent-project-ujidavid.vercel.app/',
+    projectUrl: '/airbnb',
+  },
+  {
+    name: 'Promptopia',
+    tech: ['Next.JS', 'NextAuth', 'TailwindCSS', 'MongoDB'],
+    description:
+      'Promptopia is a Full Stack Application that allows users add AI Prompts that can be copied and used by anyone. Built using Next.JS, MongoDB, NextAuth',
+    image: promptopia,
+    github: 'https://github.com/UjiDavid/promptopia',
+    link: 'https://promptopia-ujidavid.vercel.app/',
+    projectUrl: '/promptopia',
+  },
+  {
     name: 'HooBank',
     tech: ['React.JS', 'TailwindCSS'],
     description:
@@ -173,7 +195,8 @@ export const projectsInfo = [
   },
   {
     name: 'Raven & Macaw HMO',
-    description: 'Raven & Macaw HMO is a Health Management Organisation website built. I built it as part of an interview assesment.',
+    description:
+      'Raven & Macaw HMO is a Health Management Organisation website built. I built it as part of an interview assesment.',
     tech: ['React.JS'],
     image: raven_macaw,
     github: 'https://github.com/UjiDavid/raven-macaw',

@@ -14,6 +14,8 @@ import lyriks from './lyriks.png';
 import metaversus from './metaversus.png';
 import movie_app from './movie-app.png';
 import raven_macaw from './raven-macaw.png';
+import airbnb_clone from './airbnb-clone.jpg';
+import promptopia from './promptopia.jpg';
 import threeJS from './threejs.png';
 import contactImg from './SNB_4813.jpg';
 import africado from './Africado.jpg';
@@ -43,6 +45,8 @@ export {
   threeJS,
   metaversus,
   movie_app,
+  promptopia,
+  airbnb_clone,
   logo,
   David,
   css,
