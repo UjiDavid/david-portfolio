@@ -36,6 +36,7 @@ import owie1 from './Owie1.jpg';
 import owie2 from './Owie3.jpg';
 import susan from './Susan.jpg';
 import suzie from './Suzie.jpg';
+import connect from './connect.svg';
 
 export {
   contactImg,
@@ -76,4 +77,5 @@ export {
   owie2,
   susan,
   suzie,
+  connect,
 };

@@ -18,12 +18,21 @@ const ProjectItem = ({ title, image, link, description, tech, projectUrl }) => {
               <span key={tec}> {tec} |</span>
             ))}
           </p>
-          <p
-            onClick={() => router.push(`/project/${projectUrl}`)}
-            className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
-          >
-            More Info
-          </p>
+          <div className="flex flex-row gap-8">
+            <p
+              onClick={() => router.push(`/project/${projectUrl}`)}
+              className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
+            >
+              More Info
+            </p>
+            <Link
+              href={link}
+              target="_blank"
+              className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
+            >
+              Open Project
+            </Link>
+          </div>
         </div>
         <div className="p-3 md:hidden">
           <h3 className="text-2xl font-bold tracking-wider text-center">{title}</h3>
@@ -32,12 +41,21 @@ const ProjectItem = ({ title, image, link, description, tech, projectUrl }) => {
               <span key={tec}> {tec} |</span>
             ))}
           </p>
-          <p
-            onClick={() => router.push(`/project/${projectUrl}`)}
-            className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
-          >
-            More Info
-          </p>
+          <div className="flex flex-col gap-3">
+            <p
+              onClick={() => router.push(`/project/${projectUrl}`)}
+              className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
+            >
+              More Info
+            </p>
+            <Link
+              href={link}
+              target="_blank"
+              className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
+            >
+              Open Project
+            </Link>
+          </div>
         </div>
       </div>
     </>
