@@ -25,6 +25,13 @@ import {
   owie2,
   susan,
   suzie,
+  gaininfinity,
+  brightside,
+  grace_bliss,
+  jnodsolutions,
+  jnodstudios,
+  silver_mall,
+  weather,
 } from '../../public/assets';
 
 export const photosInfo = [
@@ -174,14 +181,14 @@ export const projectsInfo = [
     projectUrl: '/metaversus',
   },
   {
-    name: '3D Shirt',
-    tech: ['React', 'ThreeJS', 'React Three Fiber', 'Framer Motion'],
+    name: 'Weather App',
+    tech: ['React', 'OpenWeather Api', 'Geolocation', 'Material UI'],
     description:
-      '3D Shirt is a react app, with some cool 3D effects from Three JS. It enables users customize a shirt with custom colors or texture, users can also imprint a custom logo on the shirt. And download an image of the customized shirt.',
-    image: threeJS,
-    github: 'https://github.com/UjiDavid/threejs',
-    link: 'https://threejs-ujidavid.vercel.app/',
-    projectUrl: '/3Dshirt',
+      'This is a simple Weather App that uses the browser navigation to get users location and the uses the location to get weather information through OpenWeather API',
+    image: weather,
+    github: 'https://github.com/UjiDavid/weather-app',
+    link: 'https://weather-app-ujidavid.vercel.app/',
+    projectUrl: '/weather',
   },
   {
     name: 'Lyriks',
@@ -212,5 +219,56 @@ export const projectsInfo = [
     github: 'https://github.com/UjiDavid/movie_app',
     link: 'https://movie-app-ujidavid.vercel.app/',
     projectUrl: '/movie_app',
+  },
+];
+export const wordpressInfo = [
+  {
+    name: 'Gain Infinity',
+    tech: ['wordpress', 'elementor'],
+    description:
+      'The official website of Gain Infinity - Digital Marketing Agency, built using wordpress and elementor',
+    image: gaininfinity,
+    link: 'https://gaininfinity.com/',
+    projectUrl: '/gaininfinity',
+  },
+  {
+    name: 'Brightside Bite',
+    tech: ['wordpress', 'elementor'],
+    description: 'The website of Brightside Bite Restaurant, built using wordpress and elementor',
+    image: brightside,
+    link: 'https://brightsidebite.com/',
+    projectUrl: '/brightsidebite',
+  },
+  {
+    name: 'Grace Bliss Event Center',
+    tech: ['wordpress', 'elementor'],
+    description: 'The website of Grace Bliss Event Center, built using wordpress and elementor',
+    image: grace_bliss,
+    link: 'https://grace-bliss.com/',
+    projectUrl: '/gracebliss',
+  },
+  {
+    name: 'JNOD Solutions',
+    tech: ['wordpress', 'elementor'],
+    description: 'The website of JNOD Soultions, built using wordpress and elementor',
+    image: jnodsolutions,
+    link: 'https://jnodsolutions.com/',
+    projectUrl: '/jnodsolutions',
+  },
+  {
+    name: 'JNOD Studios',
+    tech: ['wordpress', 'elementor'],
+    description: 'The website of JNOD Studios, built using wordpress and elementor',
+    image: jnodstudios,
+    link: 'https://jnodstudios.com/',
+    projectUrl: '/jnodstudios',
+  },
+  {
+    name: 'Silver Mall',
+    tech: ['wordpress', 'elementor'],
+    description: 'The website of Silver Mall Plaza, built using wordpress and elementor',
+    image: silver_mall,
+    link: 'https://silvermallstores.com/',
+    projectUrl: '/silvermall',
   },
 ];

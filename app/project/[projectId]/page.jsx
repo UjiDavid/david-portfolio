@@ -5,10 +5,12 @@ import React from 'react';
 import { useParams } from 'next/navigation';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
-import { projectsInfo } from '../../constants';
+import { projectsInfo, wordpressInfo } from '../../constants';
 
 const searchById = (id) => {
-  const foundProject = projectsInfo.find((project) => project.projectUrl === `/${id}`);
+  const foundProject =
+    projectsInfo.find((project) => project.projectUrl === `/${id}`) ||
+    wordpressInfo.find((project) => project.projectUrl === `/${id}`);
   if (!foundProject) {
     console.log('Project not found');
   }
@@ -45,11 +47,13 @@ const page = () => {
           <h2>Overview</h2>
           <p>{projectInfo.description}</p>
           <Link href={projectInfo.link} target="_blank">
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8">Link</button>
           </Link>
-          <Link href={projectInfo.github} target="_blank">
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </Link>
+          {projectInfo.github && (
+            <Link href={projectInfo.github} target="_blank">
+              <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            </Link>
+          )}
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

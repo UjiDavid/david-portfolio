@@ -37,6 +37,13 @@ import owie2 from './Owie3.jpg';
 import susan from './Susan.jpg';
 import suzie from './Suzie.jpg';
 import connect from './connect.svg';
+import gaininfinity from './gaininfinity.jpg';
+import brightside from './brightsidebite.jpg';
+import grace_bliss from './grace-bliss.jpg';
+import jnodsolutions from './jnodsolutions.jpg';
+import jnodstudios from './jnodstudios.jpg';
+import silver_mall from './silvermallstores.jpg';
+import weather from './weather.jpg';
 
 export {
   contactImg,
@@ -78,4 +85,11 @@ export {
   susan,
   suzie,
   connect,
+  gaininfinity,
+  jnodsolutions,
+  jnodstudios,
+  grace_bliss,
+  silver_mall,
+  brightside,
+  weather,
 };
