@@ -7,7 +7,7 @@ import { David } from '../../public/assets';
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid md:grid-cols-3 gap-8">
         <div className="col-span-2 text-base font-semibold">
           <p className="mt-7 uppercase text-xl tracking-widest text-[#fcb00b]">About</p>

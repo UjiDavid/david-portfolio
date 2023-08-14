@@ -86,9 +86,9 @@ const Projects = () => {
     <div className="max-w-[1240px] mx-auto px-2 py-16">
       <p className="text-xl tracking-widest uppercase text-[#fcb00b]">Projects</p>
       <div id="projects" className="w-full">
-        <div className="flex flex-col w-[85%] md:flex-row justify-between">
+        <div className="flex flex-col w-[98%] md:flex-row justify-between">
           <h2 className="py-4">My Portfolio</h2>
-          <div className="flex max-w-[330px] py-6 items-start md:items-end">
+          <div className="flex py-6 items-start md:items-end">
             <div
               onClick={() => setProjectType('webProjects')}
               className={
